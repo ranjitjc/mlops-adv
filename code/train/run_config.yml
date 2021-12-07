@@ -1,4 +1,4 @@
-# The script to run.
+# The script to run and generate assets
 script: train.py
 # The arguments to the script file.
 arguments: [
