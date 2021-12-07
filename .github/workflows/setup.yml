@@ -10,7 +10,7 @@ on:
 #
 # 1. Set up the following secrets in your repository: 
 #   AZURE_RESOURCE_GROUP 
-#   STORAGE_ACCOUNT 
+#   STORAGE_ACCOUNT :mltraindata
 env:
   AZURE_RESOURCE_GROUP: mlops-adv-rg   #set this to your resource group name 
   STORAGE_ACCOUNT: mltraindata120721           #set this to your storage-account-name
