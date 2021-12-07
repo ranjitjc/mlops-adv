@@ -1,4 +1,4 @@
-name: Infra Deployment and Training V1
+name: Infra Deployment and Training V2
 
 on:
   push:
