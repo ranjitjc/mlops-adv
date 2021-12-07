@@ -1,8 +1,12 @@
 name: Model deployment
 
+#on:
+#  repository_dispatch:
+#    types: [machinelearningservices-runcompleted]
 on:
-  repository_dispatch:
-    types: [machinelearningservices-runcompleted]
+  push:
+    paths: 
+      - '.github/workflows/deploy_model.yml'
 
 jobs:
   deploy:
